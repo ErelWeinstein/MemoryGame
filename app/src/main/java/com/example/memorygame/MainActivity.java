@@ -228,4 +228,5 @@ public class MainActivity extends AppCompatActivity {
         lastOpenedCard = -1;
     }
 
+
 }
