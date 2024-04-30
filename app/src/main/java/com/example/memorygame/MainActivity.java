@@ -159,5 +159,13 @@ public class MainActivity extends AppCompatActivity {
         Collections.shuffle(drawableIdsList);
         drawableIdsList.toArray(ImageViews);
     }
+    public void closeCard(View view)
+    {
+        ImageView cardClosed1 = findViewById(firstOpenedCard);
+        cardClosed1.setImageResource(R.drawable.background);
+        ImageView cardClosed2 = findViewById(lastOpenedCard);
+        cardClosed2.setImageResource(R.drawable.background);
+    }
+
 
 }

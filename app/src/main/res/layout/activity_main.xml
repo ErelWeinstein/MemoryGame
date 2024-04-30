@@ -262,6 +262,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.865" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FD81AB"
+        android:onClick="closeCard"
+        android:text="close cards"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
