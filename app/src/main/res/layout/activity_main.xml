@@ -4,22 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FDC6D9"
+    android:background="#FDD0DF"
     tools:context=".MainActivity">
 
+
     <TextView
-        android:layout_width="231dp"
-        android:layout_height="46dp"
-        android:text="משחק הזכרון :)"
+        android:layout_width="255dp"
+        android:layout_height="44dp"
+        android:text="Memory Game"
+        android:textColor="#FD81AB"
         android:textDirection="inherit"
-        android:textSize="30sp"
-        android:textStyle="bold"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.072" />
-
+        app:layout_constraintVertical_bias="0.052" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -31,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188"
+        app:layout_constraintVertical_bias="0.132"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -44,8 +46,9 @@
         app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188"
+        app:layout_constraintVertical_bias="0.132"
         app:srcCompat="@drawable/background" />
+
 
     <ImageView
         android:id="@+id/imageView3"
@@ -57,9 +60,8 @@
         app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188"
+        app:layout_constraintVertical_bias="0.132"
         app:srcCompat="@drawable/background" />
-
 
     <ImageView
         android:id="@+id/imageView5"
@@ -71,7 +73,7 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43"
+        app:layout_constraintVertical_bias="0.338"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -84,7 +86,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188"
+        app:layout_constraintVertical_bias="0.132"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -97,7 +99,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43"
+        app:layout_constraintVertical_bias="0.338"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -110,7 +112,7 @@
         app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43"
+        app:layout_constraintVertical_bias="0.338"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -123,7 +125,7 @@
         app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43"
+        app:layout_constraintVertical_bias="0.338"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -136,7 +138,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -149,7 +151,7 @@
         app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -162,7 +164,7 @@
         app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -175,7 +177,7 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -188,7 +190,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="0.544"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -201,7 +203,7 @@
         app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="0.544"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -214,7 +216,7 @@
         app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="0.544"
         app:srcCompat="@drawable/background" />
 
     <ImageView
@@ -227,8 +229,39 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="0.544"
         app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/counter1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Player 1"
+        android:textColor="#FF5A92"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.250"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865" />
+
+    <TextView
+        android:id="@+id/counter2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Player 2"
+        android:textColor="#FF5A92"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.780"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
