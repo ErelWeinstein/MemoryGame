@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -149,4 +153,11 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    private void mixingCards() {
+        List<int[]> drawableIdsList = Arrays.asList(ImageViews);
+        Collections.shuffle(drawableIdsList);
+        drawableIdsList.toArray(ImageViews);
+    }
+
 }
