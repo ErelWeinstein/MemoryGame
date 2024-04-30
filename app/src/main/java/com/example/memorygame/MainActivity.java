@@ -166,6 +166,66 @@ public class MainActivity extends AppCompatActivity {
         ImageView cardClosed2 = findViewById(lastOpenedCard);
         cardClosed2.setImageResource(R.drawable.background);
     }
+    public void restart(View view) {
+        mixingCards();
+        count = 0;
+        countPlayer1 = 0;
+        TextView counterTextView = findViewById(R.id.counter1);
+        counterTextView.setText("Player 1-" + countPlayer1);
+        countPlayer2 = 0;
+        TextView counterTextView2 = findViewById(R.id.counter2);
+        counterTextView2.setText("Player 2-" + countPlayer2);
 
+        ImageView cupcake1ImageView = findViewById(R.id.imageView1);
+        cupcake1ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake2ImageView = findViewById(R.id.imageView2);
+        cupcake2ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake3ImageView = findViewById(R.id.imageView3);
+        cupcake3ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake4ImageView = findViewById(R.id.imageView4);
+        cupcake4ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake5ImageView = findViewById(R.id.imageView5);
+        cupcake5ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake6ImageView = findViewById(R.id.imageView6);
+        cupcake6ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake7ImageView = findViewById(R.id.imageView7);
+        cupcake7ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake8ImageView = findViewById(R.id.imageView8);
+        cupcake8ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake9ImageView = findViewById(R.id.imageView9);
+        cupcake9ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake10ImageView = findViewById(R.id.imageView10);
+        cupcake10ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake11ImageView = findViewById(R.id.imageView11);
+        cupcake11ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake12ImageView = findViewById(R.id.imageView12);
+        cupcake12ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake13ImageView = findViewById(R.id.imageView13);
+        cupcake13ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake14ImageView = findViewById(R.id.imageView14);
+        cupcake14ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake15ImageView = findViewById(R.id.imageView15);
+        cupcake15ImageView.setImageResource(R.drawable.background);
+
+        ImageView cupcake16ImageView = findViewById(R.id.imageView16);
+        cupcake16ImageView.setImageResource(R.drawable.background);
+
+        firstOpenedCard = -1;
+        lastOpenedCard = -1;
+    }
 
 }
